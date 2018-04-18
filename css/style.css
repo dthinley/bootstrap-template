@@ -27,6 +27,7 @@ header nav {
 
 .logo img{
 	width: 120px;
+	margin-top: 25px;
 
 
 }
@@ -143,7 +144,7 @@ h2.port{
 	margin-bottom: 80px;
 }
 
-.team{
+.team-bg{
 	background-color: #2980b9;
 	padding-top: 15px;
 	padding-bottom: 100px;
@@ -168,13 +169,16 @@ h2.port{
     text-align: center;
 
 }
+#contact{
+	padding-bottom: 100px;
+}
 
 .contact-row h2{
 	font-weight: 700;
     font-family: 'Droid Sans', sans-serif;
     font-size: 45px;
     color: #2c3e50;
-    padding: 10px 0px;
+    padding: 20px 0px;
     text-align: center;
 }
 
@@ -193,24 +197,38 @@ h2.port{
 
 }
 
-.text2 textarea{
-	border: none;
-	width: 80%;
-
+.text2 textarea {
+    border: none;
+    width: 80%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid green;
 }
-
-textarea{
-	border-bottom: 1px solid	green;
-}
-
 
 
 form input.text{
 	width: 80%;
 	height: 40px;
-	border-bottom: 1px solid green;
+	border-bottom: 2px solid green;
+	padding-top: 40px;
+	padding-bottom: 15px;
 
 }
+
+
+.contact_btn input[type="submit"] {
+    border: 0px;
+    background: #2ecc71;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -o-border-radius: 15px;
+    outline: none;
+}
+
 footer{
 	background-color: #34495e;
 	color: #fff;
@@ -237,3 +255,4 @@ footer{
 	    margin-top: 100px;
 	    align-items: center;
 }
+
