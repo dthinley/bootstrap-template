@@ -38,8 +38,8 @@
 	</header>
 
 		<section id="home">
-			<div class="container">
-				<h1>Welcome to Karma Industry</h1>
+			<div class="intro">
+				<h1>Welcome to<br> Karma Industry</h1>
 				
 			</div>
 			</div>
@@ -161,11 +161,42 @@
 </section>
 
 
-<section id ="contact" class="contact-bg">
+<section id ="contact">
 	<div class="container">
-		<h3>Contact</h3>
-		<p>Please contact us and we can discuss work!</p>
-		<div class="row">
+		<div class="row contact-row">
+		<h2>Contact</h2>
+		<p class="">Please contact us and we can discuss work!</p>
+		</div>
+
+		<div class="col-md-6 contact-row-column">
+				 <form>
+					<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+					<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+					<div class="text2">
+	                   <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message..</textarea>
+	              	 </div>	
+	              	 <div class="contact_btn">
+	               		<input type="submit" id="submit" value="Submit">
+	                </div>
+					</form>
+				</div>
+
+
+				<div class="col-md-6 contact-row-column">
+					<div class="text">
+						<h4>Address</h4>
+						<p>129 West 81st Street </p>
+						<small>New York, NY 10024</small>
+					</div>
+					<div class="text">
+						<h4>Email</h4>
+						<p><a href="mailto:@example.com">info[at]kama.com</a> </p>
+					</div>
+					<div class="text">
+						<h4>Phone</h4>
+						<p>+1 212-532-1256</p>
+					</div>
+				</div>
 		
 
 
