@@ -15,9 +15,14 @@
 }
 
 header{
-	background-color: #34495e;
+	background-color: transparent;
 	height: 100px;
 	line-height: 100px;
+}
+
+header nav {
+    float: right;
+    margin-top: 40px;
 }
 
 .logo img{
@@ -50,6 +55,19 @@ header nav ul li a{
 header ul li a:hover{
 	color: #2ecc71;
 	text-decoration: none;
+}
+
+.intro {
+	color: #fff;
+	text-align: center;
+    padding: 200px 0px;
+    position: relative;
+}
+
+.intro h1{
+	margin-top: 80px;
+	font-size: 60px;
+	line-height: 90px;
 }
 
 .wrapper{
@@ -151,6 +169,48 @@ h2.port{
 
 }
 
+.contact-row h2{
+	font-weight: 700;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 45px;
+    color: #2c3e50;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.contact-row p{
+	text-align: center;
+	font-weight: 800;
+}
+
+.col-md-6.contact-row-column{
+	margin-top: 40px;
+
+}
+
+.text{
+	border: none;
+
+}
+
+.text2 textarea{
+	border: none;
+	width: 80%;
+
+}
+
+textarea{
+	border-bottom: 1px solid	green;
+}
+
+
+
+form input.text{
+	width: 80%;
+	height: 40px;
+	border-bottom: 1px solid green;
+
+}
 footer{
 	background-color: #34495e;
 	color: #fff;
