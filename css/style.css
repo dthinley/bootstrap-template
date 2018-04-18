@@ -1,1 +1,179 @@
+*, html, body 
+{
+	margin: 0px;
+	padding:0px;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Libre Baskerville', serif;
+	line-height: 25px;
+	font-size: 15px;
 
+
+}
+
+.text-center{
+	color: #fff;
+}
+
+header{
+	background-color: #34495e;
+	height: 100px;
+	line-height: 100px;
+}
+
+.logo img{
+	width: 120px;
+
+
+}
+
+ul{
+	list-style: none;
+
+}
+
+ul li{
+	display: inline-block;
+
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul li a{
+	font-size: 18px;
+	padding-right: 30px;
+	transition: all 0.5s ease-in;
+	color: #fff;
+}
+
+header ul li a:hover{
+	color: #2ecc71;
+	text-decoration: none;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.col-md-4 i{
+    font-size: 97px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 25px;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.container h2{
+	margin-top: 60px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.about {
+	width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 80px;
+    margin-top: 45px;
+    color: #fff;
+    letter-spacing: 2.5px;
+}
+
+.about-icon{
+	color: #fff;
+	font-weight: 550;
+	cursor: pointer;
+	transition: .3s ease-in;
+
+}
+
+.about-icon:hover{
+	color: #2ecc71;
+}
+
+.col-md-4{
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+#about{
+	background-color: #34495e;
+}
+
+
+.col-md-4 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.col-md-4 img{
+	width: 100%;
+}
+
+h2.port{
+	color: #000;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.team{
+	background-color: #2980b9;
+	padding-top: 15px;
+	padding-bottom: 100px;
+}
+
+.staff{
+	text-align: center;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+
+.col-sm-6 img{
+	margin: 2px auto;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.team-col{
+	padding: 0 137px;
+    text-align: center;
+
+}
+
+footer{
+	background-color: #34495e;
+	color: #fff;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.fab {
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 13px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.fab:hover{
+	color: #2ecc71;
+	transform: scale(1.1);
+	
+}
+
+.col-sm-6{
+	    margin-top: 100px;
+	    align-items: center;
+}
